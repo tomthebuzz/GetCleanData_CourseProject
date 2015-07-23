@@ -3,7 +3,9 @@
 #
 
 library(data.table)
+library(plyr)
 library(dplyr)
+
 
 # Get base data from files as column classes
 # Ensure working directory pounts to the correct Test Data 
@@ -66,7 +68,7 @@ Final <- cbind(StdRs, MeanRs[,3:35])
 View(Final)
 
 
-# write.table(Final, file="GCD_CP1_Part1.txt", col.names=FALSE)
+# write.table(Final, file="GCD_CP1_Part1.txt", row.names=FALSE)
 # write.table(lab$V5, file="GCD_CP1_Par2.txt", col.names=FALSE, row.names = FALSE)
 # View(MeanRs)
 # View(StdRs)
