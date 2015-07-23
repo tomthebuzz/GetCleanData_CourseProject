@@ -69,7 +69,7 @@ View(Final)
 
 
 # write.table(Final, file="GCD_CP1_Part1.txt", row.names=FALSE)
-# write.table(lab$V5, file="GCD_CP1_Par2.txt", col.names=FALSE, row.names = FALSE)
+# write.table(colnames(Final), file="GCD_CP1_Par2.txt", col.names=FALSE, row.names = FALSE)
 # View(MeanRs)
 # View(StdRs)
 
