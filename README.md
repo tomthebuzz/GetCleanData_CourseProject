@@ -4,7 +4,7 @@
 
 #### Preparatory Steps
 
-Required libraries (data.table) and (dplyr) are loaded.
+Required libraries (data.table), (plyr) and (dplyr) are loaded.
 
 This section of the code prepares some base elements of the data intake by determining the classes of the 
 variables in the X_ and Y_-Variables of the data files. It also reads the "features.txt" code book in order
